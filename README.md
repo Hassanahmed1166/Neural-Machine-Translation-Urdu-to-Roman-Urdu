@@ -154,9 +154,7 @@ This project is actively under development. Current improvement areas:
 
 This project is being developed under the guidance of:
 - **Dr. Usama** - Mentor
-- **Ali Raza** - Senior Colleague  
-- **Sebastian** - Collaborator
-- **Hassan Ahmed** - Lead Developer
+- **Ali Raza** - Senior & Colleague  
 
 *This is my first deep dive into NLP - an incredibly exciting learning journey!*
 
