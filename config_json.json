@@ -1,0 +1,44 @@
+{
+  "model": {
+    "vocab_size": 8000,
+    "embed_dim": 256,
+    "enc_hidden": 256,
+    "dec_hidden": 256,
+    "enc_layers": 2,
+    "dec_layers": 4,
+    "dropout": 0.2,
+    "pad_idx": 0
+  },
+  "training": {
+    "batch_size": 32,
+    "learning_rate": 1e-4,
+    "epochs": 5,
+    "teacher_forcing_ratio": 0.9,
+    "grad_clip": 1.0,
+    "print_freq": 100,
+    "save_freq": 1
+  },
+  "data": {
+    "train_split": 0.5,
+    "val_split": 0.25,
+    "test_split": 0.25,
+    "max_src_len": 25,
+    "max_trg_len": 25,
+    "min_freq": 2
+  },
+  "tokenizer": {
+    "vocab_size": 8000,
+    "special_tokens": {
+      "pad": "<pad>",
+      "unk": "<unk>",
+      "sos": "<sos>",
+      "eos": "<eos>"
+    }
+  },
+  "paths": {
+    "data_path": "data/urdu_roman.xlsx",
+    "vocab_path": "data/wordpiece_vocab.json",
+    "model_save_path": "models/",
+    "log_path": "logs/"
+  }
+}
