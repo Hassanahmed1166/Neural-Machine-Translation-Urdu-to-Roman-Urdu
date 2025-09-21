@@ -39,7 +39,7 @@ Input (Urdu Script) → Encoder → Context → Decoder → Output (Roman Urdu)
 
 ## 📊 Dataset
 
-- **Source**: Urdu-Roman Urdu parallel corpus
+- **Source**: Urdu-Roman Urdu parallel corpus https://github.com/amir9ume/urdu_ghazals_rekhta/tree/main
 - **Format**: Excel file with paired sentences
 - **Split**: 50% train, 25% validation, 25% test
 - **Max Length**: 25 words (Urdu), 23 words (Roman Urdu)
